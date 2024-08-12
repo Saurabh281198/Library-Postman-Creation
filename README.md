@@ -50,15 +50,21 @@ In this project, it has one directory that contain all the postman files in the 
 
 🥇 First way of execution is by importing all the .json files in postman and running the collection file with the help of runner by uploading the excel data file as input data. Below is the screenshot for test results:-
 
+![Postman Execution Screenshot](https://github.com/user-attachments/assets/4129db31-910c-44d5-be54-efdc99bca0b5)
+
 🥈 Second way of execution can be done by using Newman. Before that setup the newman in your local system and once setup is done, open the command line and navigate to the directory where files have been saved.
 
 ** One way of execution can be achieved by newman without report generation. Enter the below code:-
 
 [ newman run Library.postman_collection.json -d BookDetails.csv -e QAEnvironment.postman_environment.json -g workspace.postman_globals ]
 
+![NewmanExecutionScreenshot](https://github.com/user-attachments/assets/567cf038-cdd9-432c-87b9-d7cb6e0a9987)
+
 ** Other way of excecution can be achieved by newman with report generation. Enter the below code:-
 
 [ newman run Library.postman_collection.json -d BookDetails.csv -e QAEnvironment.postman_environment.json -g workspace.postman_globals -r htmlextra]
+
+![NewmanExecutionReportScreenshot](https://github.com/user-attachments/assets/ce079807-f0a4-406f-87d5-b52f037e9724)
 
 😇 Please do check the code and let me know if any changes required to make it better. 🤞🤞
 
