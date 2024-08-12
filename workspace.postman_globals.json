@@ -1,0 +1,21 @@
+{
+	"id": "2c191f60-326d-469c-8949-e1669dba4817",
+	"values": [
+		{
+			"key": "company_code",
+			"value": "SV",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "aisle_no",
+			"value": "2806",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2024-08-09T14:48:15.885Z",
+	"_postman_exported_using": "Postman/11.7.0-240730-0646"
+}
